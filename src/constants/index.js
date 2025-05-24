@@ -3,17 +3,17 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I’m an enthusiastic front-end developer with a passion for creating responsive and user-friendly web applications. With a strong foundation in React, I enjoy turning design concepts into functional, intuitive interfaces. Though I'm at the beginning of my journey, I’m eager to apply my skills and continuously learn, with the goal of delivering innovative web solutions that enhance user experiences.`;
+export const HERO_CONTENT = `I’m an enthusiastic Software Engineer with a passion for building responsive, efficient, and user-friendly applications. With a solid foundation in Java, Python, and React, I enjoy transforming ideas into robust, scalable solutions. I thrive on solving complex problems through clean, logical code and well-structured architecture. Though I’m early in my journey, I’m driven by curiosity and a commitment to continuous learning, aiming to create innovative software that solves real-world challenges and enhances user experiences.`;
 
-export const ABOUT_TEXT = `I’m a final-year Computer Science student with a specialization in Artificial Intelligence, Machine Learning, Front-End Development, and Blockchain technologies. My journey in tech has been driven by a passion for problem-solving and innovation. I've completed several projects in machine learning, applying cutting-edge algorithms to solve real-world challenges. With a strong foundation in front-end development, I enjoy building intuitive, user-friendly interfaces using React. Additionally, I am exploring the transformative potential of blockchain.`;
+export const ABOUT_TEXT = `I’m a Software Development Trainee at LDT Technology, with a background in Computer Science and a specialization in Artificial Intelligence, Machine Learning, Front-End Development, and Blockchain technologies. My journey in tech is fueled by a strong passion for problem-solving and continuous innovation. At LDT Technology, I work with technologies like Java, Python, and React to build scalable and efficient software solutions. I've also completed several machine learning projects, applying cutting-edge algorithms to solve real-world challenges. In addition to full-stack development, I'm actively exploring the potential of blockchain to drive future-ready applications.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    year: "2025 - Present",
+    role: "Software Developer Trainee",
+    company: "LDT Technology",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Javascript", "React.js", "Python", "Java"],
   },
   {
     year: "2022 - 2023",
@@ -45,6 +45,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and reminders, allowing users to create, organize, and edit notes effortlessly. With features like real-time syncing, it provides a simple and intuitive interface to boost productivity.",
     technologies: ["HTML", "CSS", "React"],
+    link:"https://github.com/iceeyyy/Sticky_Notes"
   },
   {
     title: "Task Management App",
@@ -52,12 +53,14 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "React"],
+    link:"https://github.com/iceeyyy/To_Do_List"
   },
   {
     title: "Vanila",
     image: project3,
     description:"Vanila is a games e-commerce store offering a seamless shopping experience, secure transactions, and an extensive game catalog.",
-    technologies:["HTML","CSS","React","Bootstrap"]
+    technologies:["HTML","CSS","React","Bootstrap"],
+    link:"https://github.com/iceeyyy/Vanila_1.0"
   },
   
   

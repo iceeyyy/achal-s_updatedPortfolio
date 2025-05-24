@@ -1,7 +1,11 @@
+
 import { RiReactjsLine } from "react-icons/ri"
 import { SiSolidity } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoCPlusPlus } from "react-icons/bi";
+import { IoLogoJavascript } from "react-icons/io";
+import { RiJavaFill } from "react-icons/ri";
 import {animate, motion} from "framer-motion"
 
 const iconVariants=(duration) => ({
@@ -33,6 +37,15 @@ const Technology = () => {
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
             <BiLogoPostgresql  className="text-7xl text-sky-700"/>
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <BiLogoCPlusPlus  className="text-7xl text-sky-700"/>
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <IoLogoJavascript  className="text-7xl text-sky-700"/>
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <RiJavaFill    className="text-7xl text-sky-700"/>
         </div>
       </div>
     </div>
